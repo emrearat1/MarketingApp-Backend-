@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\business\\businessserviceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|solutionrelative:business\\businessserviceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\dataaccess\\concretes\\entityframework\\context\\marketappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concretes\\entityframework\\context\\marketappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\dataaccess\\concretes\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concretes\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\dataaccess\\abstracts\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstracts\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\business\\contretes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|solutionrelative:business\\contretes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\business\\abstracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|solutionrelative:business\\abstracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\entities\\concreates\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|solutionrelative:entities\\concreates\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\entities\\concreates\\shoppingcart .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|solutionrelative:entities\\concreates\\shoppingcart .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 328,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:59:10.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BusinessServiceRegistiration.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\BusinessServiceRegistiration.cs",
+              "RelativeDocumentMoniker": "Business\\BusinessServiceRegistiration.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\BusinessServiceRegistiration.cs",
+              "RelativeToolTip": "Business\\BusinessServiceRegistiration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:09:31.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Contretes\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Contretes\\UserService.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Contretes\\UserService.cs",
+              "RelativeToolTip": "Business\\Contretes\\UserService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:28:27.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Concreates\\User.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\User.cs",
+              "RelativeToolTip": "Entities\\Concreates\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:05:45.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Abstracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstracts\\IUserService.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Abstracts\\IUserService.cs",
+              "RelativeToolTip": "Business\\Abstracts\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:24:58.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:21:57.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfUserDal.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
+              "RelativeToolTip": "DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:36:48.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserDal.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Abstracts\\IUserDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstracts\\IUserDal.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Abstracts\\IUserDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstracts\\IUserDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:29:12.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MarketAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "RelativeToolTip": "DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAADLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:54:49.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingCart .cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\ShoppingCart .cs",
+              "RelativeDocumentMoniker": "Entities\\Concreates\\ShoppingCart .cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\ShoppingCart .cs",
+              "RelativeToolTip": "Entities\\Concreates\\ShoppingCart .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:12:10.003Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 167,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

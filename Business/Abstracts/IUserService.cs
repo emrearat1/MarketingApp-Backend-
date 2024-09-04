@@ -1,4 +1,5 @@
-﻿using Entities.Concreates;
+﻿using Business.Request.UserRequests;
+using Entities.Concreates;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,8 @@ namespace Business.Abstracts
     {
         User GetById(int id);
         List<User> Getlist();
-        void Add(User user);
-        void Update(User user);
-        void Delete(int id);
+        bool CreateUser(CreateUserRequest request);
+        bool UpdateUser(UpdateUserRequest request);
+        bool DeleteUser(DeleteUserRequest request);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Business.Abstracts;
+using Business.Request.UserRequests;
 using DataAccess.Abstracts;
 using DataAccess.Concretes.EntityFramework;
 using Entities.Concreates;
@@ -20,25 +21,27 @@ namespace Business.Contretes
             _userDal = userDal;
         }
 
-        public void Add(User user)
+        public bool CreateUser(CreateUserRequest request)
         {
             //burlarda requestleri business rule ile kontrol et
             User userToAdd = new User
             {
-                UserName = user.UserName,
-                Password = user.Password,  // Ensure this is hashed if it isn't already
-                Wallet = user.Wallet,
-                ShoppingCartId = user.ShoppingCartId,
-                ShoppingCart = user.ShoppingCart  // Optional, if ShoppingCart is already populated
+                UserName = request.UserName,
+                Password = request.Password,  // Ensure this is hashed if it isn't already
+                Wallet = request.Wallet,
+                //ShoppingCartId = request.ShoppingCartId,
+                  // Optional, if ShoppingCart is already populated
             };
             _userDal.Add(userToAdd);
+            return true;
         }
 
-        public void Delete(int id)
+        public bool DeleteUser(DeleteUserRequest request)
         {
             //check existance
-            User userToDelete = _userDal.Get(f=>f.Id == id);
+            User userToDelete = _userDal.Get(f=>f.Id == request.Id);
             _userDal.Delete(userToDelete);
+            return true;
         }
 
         public User GetById(int id)
@@ -53,15 +56,15 @@ namespace Business.Contretes
             return users;
         }
 
-        public void Update(User user)
+       
+        public bool UpdateUser(UpdateUserRequest request)
         {
-            User userToUpdate = _userDal.Get(x => x.Id ==user.Id);
-            userToUpdate.UserName = user.UserName;
-            userToUpdate.Password = user.Password;  // Ensure this is hashed if it isn't already
-            userToUpdate.Wallet = user.Wallet;
-            userToUpdate.ShoppingCartId = user.ShoppingCartId;
-            userToUpdate.ShoppingCart = user.ShoppingCart;  // Optional, if ShoppingCart is already populated
+            User userToUpdate = _userDal.Get(x => x.Id == request.Id);
+            userToUpdate.UserName = request.UserName;
+            userToUpdate.Password = request.Password;  // Ensure this is hashed if it isn't already
+            userToUpdate.Wallet = request.Wallet;
             _userDal.Update(userToUpdate);
+            return true;
         }
     }
 }

@@ -15,3 +15,4 @@ C:\Users\AEA4BU\source\repos\WebApplication1\DataAccess\obj\Debug\net6.0\DataAcc
 C:\Users\AEA4BU\source\repos\WebApplication1\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
 C:\Users\AEA4BU\source\repos\WebApplication1\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
 C:\Users\AEA4BU\source\repos\WebApplication1\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\AEA4BU\source\repos\WebApplication1\DataAccess\obj\Debug\net6.0\DataAccess.sourcelink.json

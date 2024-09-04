@@ -38,7 +38,7 @@ namespace DataAccess.Concretes.EntityFramework
 
         public List<User> GetList(Expression<Func<User, bool>> expression = null)
         {
-            return _context.Users.ToList();
+            return _context.Users.Include(u => u.ShoppingCarts).ToList();
         }
 
         public void Update(User user)

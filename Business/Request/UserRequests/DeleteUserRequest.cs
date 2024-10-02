@@ -8,6 +8,6 @@ namespace Business.Request.UserRequests
 {
     public class DeleteUserRequest
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
     }
 }

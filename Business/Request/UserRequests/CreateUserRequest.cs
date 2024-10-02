@@ -9,7 +9,7 @@ namespace Business.Request.UserRequests
 {
     public class CreateUserRequest
     {
-        public int Id { get; set; }
+        
         public string UserName { get; set; } = "Username";
         public string Password { get; set; } = "Password";
         public int Wallet { get; set; } = 0;

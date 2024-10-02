@@ -10,10 +10,11 @@ namespace Business.Abstracts
 {
     public interface IShoppingCartService
     {
-        ShoppingCart GetById(int id);
+        ShoppingCart GetById(Guid id);
         List<ShoppingCart> Getlist();
         bool CreateShoppingCart(CreateShoppingCartRequest request);
         bool UpdateShoppingCart(UpdateShoppingCartRequest request);
         bool DeleteShoppingCart(DeleteShoppingCartRequest request);
+        bool AddProductToCart(Guid cartid, Guid productId);
     }
 }

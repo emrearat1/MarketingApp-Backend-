@@ -8,6 +8,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace DataAccess.Concretes.EntityFramework
 {
@@ -38,7 +39,7 @@ namespace DataAccess.Concretes.EntityFramework
 
         public List<User> GetList(Expression<Func<User, bool>> expression = null)
         {
-            return _context.Users.Include(u => u.ShoppingCarts).ToList();
+            return _context.Users.Include(u => u.ShoppingCarts).ThenInclude(k=>k.Products).Include(u => u.Comments).ToList();
         }
 
         public void Update(User user)
@@ -47,7 +48,7 @@ namespace DataAccess.Concretes.EntityFramework
             _context.SaveChanges();
         }
 
-        public List<User> GetById(int id) 
+        public List<User> GetById(Guid id) 
         {
         
         return _context.Users.Where(x=> x.Id == id).ToList();

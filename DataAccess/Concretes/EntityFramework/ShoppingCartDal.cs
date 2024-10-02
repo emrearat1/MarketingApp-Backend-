@@ -1,6 +1,7 @@
 ﻿using DataAccess.Abstracts;
 using DataAccess.Concretes.EntityFramework.Context;
 using Entities.Concreates;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,7 +39,8 @@ namespace DataAccess.Concretes.EntityFramework
 
         public List<ShoppingCart> GetList(Expression<Func<ShoppingCart, bool>> expression = null)
         {
-            return _context.ShoppingCarts.ToList();
+            return _context.ShoppingCarts.Include(u => u.User).Include(x => x.Products).ToList();
+            //return _context.ShoppingCarts.Include(u => u.User).ToList();
         }
 
         public void Update(ShoppingCart shoppingCart)
@@ -46,7 +48,7 @@ namespace DataAccess.Concretes.EntityFramework
             _context.ShoppingCarts.Update(shoppingCart);
             _context.SaveChanges();
         }
-        public List<ShoppingCart> GetById(int id)
+        public List<ShoppingCart> GetById(Guid id)
         {
 
             return _context.ShoppingCarts.Where(x => x.Id == id).ToList();

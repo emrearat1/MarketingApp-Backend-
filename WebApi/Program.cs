@@ -3,14 +3,20 @@ using Business.Abstracts;
 using Business.Contretes;
 using DataAccess.Abstracts;
 using DataAccess.Concretes.EntityFramework;
+using DataAccess.Concretes.EntityFramework.Context;
+using Entities.Concreates;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddBusinessServices();
 
-builder.Services.AddSingleton<IUserDal, EfUserDal>();
-builder.Services.AddSingleton<IUserService,UserService>();
+//builder.Services.AddSingleton<IUserDal, EfUserDal>();
+//builder.Services.AddSingleton<IUserService, UserService>();
 
 //builder.Services.AddSingleton<ITransmissionDal, EFTransmissionDal>();
 //builder.Services.AddSingleton<TransmissionBussinessRules>();
@@ -35,7 +41,10 @@ if (app.Environment.IsDevelopment())
 }
 //app.UseHttpsRedirection();
 
-app.UseAuthorization();
+//bunu ekledim
+//app.UseAuthentication();
+
+//app.UseAuthorization();
 
 app.MapControllers();
 

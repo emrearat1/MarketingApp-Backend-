@@ -1,52 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\dataaccess\\concretes\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concretes\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\entities\\concreates\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|solutionrelative:entities\\concreates\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MarketDB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MarketDB/True/SqlTable/dbo.ShoppingCarts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\entities\\concreates\\shoppingcart .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|solutionrelative:entities\\concreates\\shoppingcart .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\business\\contretes\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|solutionrelative:business\\contretes\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\dataaccess\\concretes\\entityframework\\shoppingcartdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concretes\\entityframework\\shoppingcartdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\dataaccess\\abstracts\\ishoppingcartdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstracts\\ishoppingcartdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\dataaccess\\concretes\\entityframework\\context\\marketappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|c:\\users\\aea4bu\\desktop\\yedek3\\marketingapp\\dataaccess\\concretes\\entityframework\\context\\marketappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00AF8619-5CEF-4B58-85F1-C26E8CB7B039}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concretes\\entityframework\\context\\marketappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\webapi\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|c:\\users\\aea4bu\\desktop\\yedek3\\marketingapp\\business\\contretes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B357B84D-53E1-4D6B-9A31-EF723F968B86}|Business\\Business.csproj|solutionrelative:business\\contretes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|c:\\users\\aea4bu\\source\\repos\\webapplication1\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BE1531-79AB-4F64-A02F-43BF5F2F3A66}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|c:\\users\\aea4bu\\desktop\\yedek3\\marketingapp\\entities\\concreates\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D16C9D-CEC2-4A9A-9016-7D693EAB72D2}|Entities\\Entities.csproj|solutionrelative:entities\\concreates\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,161 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 142,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EfUserDal.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
-              "RelativeToolTip": "DataAccess\\Concretes\\EntityFramework\\EfUserDal.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T14:05:50.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Users [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MarketDB/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-03T14:03:54.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.ShoppingCarts [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MarketDB/True/SqlTable/dbo.ShoppingCarts.sql",
-              "ToolTip": "dbo.ShoppingCarts [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-03T14:03:49.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\Concreates\\User.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\User.cs",
-              "RelativeToolTip": "Entities\\Concreates\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T14:03:01.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShoppingCart .cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\ShoppingCart .cs",
-              "RelativeDocumentMoniker": "Entities\\Concreates\\ShoppingCart .cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Concreates\\ShoppingCart .cs",
-              "RelativeToolTip": "Entities\\Concreates\\ShoppingCart .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:57:51.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T14:01:40.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MarketAppContext.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
-              "RelativeToolTip": "DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAwwCEAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:46:23.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IShoppingCartDal.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Abstracts\\IShoppingCartDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Abstracts\\IShoppingCartDal.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Abstracts\\IShoppingCartDal.cs",
-              "RelativeToolTip": "DataAccess\\Abstracts\\IShoppingCartDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:46:13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShoppingCartDal.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\ShoppingCartDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concretes\\EntityFramework\\ShoppingCartDal.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\Concretes\\EntityFramework\\ShoppingCartDal.cs",
-              "RelativeToolTip": "DataAccess\\Concretes\\EntityFramework\\ShoppingCartDal.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAMwBUAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:45:02.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShoppingCartService.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Contretes\\ShoppingCartService.cs",
-              "RelativeDocumentMoniker": "Business\\Contretes\\ShoppingCartService.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Contretes\\ShoppingCartService.cs",
-              "RelativeToolTip": "Business\\Contretes\\ShoppingCartService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:44:58.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:41:00.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\WebApi\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:40:57.403Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             }
           ]
         },
@@ -220,15 +36,58 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 110,
+          "SelectedChildIndex": 2,
+          "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MarketAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "RelativeToolTip": "DataAccess\\Concretes\\EntityFramework\\Context\\MarketAppContext.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAqwFoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T12:44:08.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Business\\Contretes\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Contretes\\UserService.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Business\\Contretes\\UserService.cs",
+              "RelativeToolTip": "Business\\Contretes\\UserService.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAA2wHQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T12:43:52.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Concreates\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Concreates\\User.cs",
+              "ToolTip": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Concreates\\User.cs",
+              "RelativeToolTip": "Entities\\Concreates\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T12:33:55.558Z"
             }
           ]
         }

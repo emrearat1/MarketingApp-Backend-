@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\AEA4BU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AEA4BU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj"
+              "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj": {
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\AEA4BU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AEA4BU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,6 +140,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

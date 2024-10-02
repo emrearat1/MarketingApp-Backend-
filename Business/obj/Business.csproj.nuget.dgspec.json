@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Business.csproj": {}
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Business.csproj": {
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\AEA4BU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Business\\obj\\",
+        "outputPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AEA4BU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Core\\Core.csproj"
               },
-              "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj"
+              "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -52,6 +55,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -86,14 +103,103 @@
         }
       }
     },
-    "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\AEA4BU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AEA4BU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\AEA4BU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AEA4BU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,8 +217,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj"
+              "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -181,14 +287,14 @@
         }
       }
     },
-    "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj": {
+    "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\AEA4BU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AEA4BU\\source\\repos\\WebApplication1\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\AEA4BU\\Desktop\\yedek3\\MarketingApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AEA4BU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -222,6 +328,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

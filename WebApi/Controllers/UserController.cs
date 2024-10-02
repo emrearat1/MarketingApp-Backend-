@@ -1,5 +1,6 @@
 ﻿using Business.Abstracts;
 using Business.Request.UserRequests;
+using Core;
 using Entities.Concreates;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,28 +30,39 @@ namespace WebApi.Controllers
         }
 
         [HttpDelete("/DeleteUserById")]
-        public IActionResult DeleteUSer(DeleteUserRequest request) 
+        public IActionResult DeleteUSer(DeleteUserRequest request)
         {
             return Ok(_userService.DeleteUser(request));
         }
 
         [HttpGet("/GetUserById")]
-        public IActionResult GetById(int id)
+        public IActionResult GetById(Guid id)
         {
             return Ok(_userService.GetById(id));
         }
 
         [HttpPut("/UpdateUser")]
-        public IActionResult UpdateUser(UpdateUserRequest request) 
-        { 
+        public IActionResult UpdateUser(UpdateUserRequest request)
+        {
             return Ok(_userService.UpdateUser(request));
         }
 
         // TODO AddPagination
-        [HttpGet("/GetUsers")]
-        public IActionResult GetAllUsers()
+        //[HttpGet("/GetUsers")]
+        //public IActionResult GetAllUsers()
+        //{
+        //    List<User> users = _userService.Getlist();
+        //    return Ok(users);
+        //}
+
+        [HttpGet("GetUsers")]
+        public IActionResult GetUsers([FromQuery] QueryObject query)
         {
-            List<User> users = _userService.Getlist();
+            // Check if the search keyword is provided
+            var users = string.IsNullOrEmpty(query.SearchKeyword)
+                ? _userService.Getlist() // If no keyword is provided, retrieve all users
+                : _userService.GetUsers(query); // If keyword is provided, filter users
+
             return Ok(users);
         }
     }

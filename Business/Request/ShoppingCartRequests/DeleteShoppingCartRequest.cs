@@ -8,6 +8,6 @@ namespace Business.Request.ShoppingCartRequests
 {
     public class DeleteShoppingCartRequest
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
     }
 }

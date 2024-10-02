@@ -19,15 +19,25 @@ namespace Business
         {
             services.AddSingleton<MarketAppContext>();
             services.AddSingleton<IUserDal, EfUserDal>();
-            //services.AddSingleton<BrandBusinessRules>();
+            ////services.AddSingleton<BrandBusinessRules>();
             services.AddSingleton<IUserService, UserService>();
 
             services.AddSingleton<IShoppingCartDal, ShoppingCartDal>();
             //services.AddSingleton<BrandBusinessRules>();
             services.AddSingleton<IShoppingCartService, ShoppingCartService>();
             /*  services.AddAutoMapper(assemblies: AppDomain.CurrentDomain.GetAssemblies());*/ //Services, .NET'e ait.
-                                                                                               //AddAutoMapper'ın gelmesi : Extensions.
-                                                                                               //.NET'e ait değil, sonradan ekleniyor.
+            services.AddSingleton<IProductDal, ProductDal>();
+            //services.AddSingleton<BrandBusinessRules>();
+            services.AddSingleton<IProductService, ProductService>();
+
+
+            services.AddSingleton<IShoppingCartProductDal, ShoppingCartProductDal>();
+            ////services.AddSingleton<BrandBusinessRules>();
+            //services.AddSingleton<IUserService, UserService>();
+
+            services.AddSingleton<ICommentDal, CommentDal>();
+            //services.AddSingleton<BrandBusinessRules>();
+            services.AddSingleton<ICommentService, CommentService>();
 
             return services;
         }

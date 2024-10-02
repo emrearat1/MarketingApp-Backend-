@@ -8,10 +8,21 @@ namespace Entities.Concreates
 {
     public class ShoppingCart
     {
-        public int Id { get; set; }
-        public int UserId{ get; set; }
+        public ShoppingCart()
+        {
+            Id = Guid.NewGuid();
+            //Products = new List<ProductInfo>();
+            Products = new List<ShoppingCartProduct>();
+        }
+
+        public Guid Id { get; set; }
+        public Guid UserId{ get; set; }
         public User User { get; set; }
-        public string products { get; set; }
-        public int TotalPrice { get; set; }
+        //public ICollection<ProductInfo> Products { get; set; } = new List<ProductInfo>();
+        public decimal TotalPrice { get; set; }
+
+        public ICollection<ShoppingCartProduct> Products { get; set; }
+        //adres bilgisi ve ödeme kontrolu yaptır 
+
     }
 }

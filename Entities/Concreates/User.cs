@@ -9,15 +9,17 @@ using System.Threading.Tasks;
 
 namespace Entities.Concreates
 {
-    public class User /*: IdentityUser<Guid>*/
+    public class User : IdentityUser
     {
         public User()
         {
-            Id = Guid.NewGuid();
+            //Id = Guid.NewGuid();
         }
 
-        public Guid Id { get; set; }
-        public string UserName { get; set; }
+        //public Guid Id { get; set; }
+
+        //public string UserName { get; set; }
+
         //public string Password { get; set; }
         public int Wallet { get; set; }
         //public ShoppingCart ShoppingCart { get; set; }
@@ -27,5 +29,6 @@ namespace Entities.Concreates
         public ICollection<Comment> Comments { get; } = new List<Comment>();
 
     }
+}
 
    

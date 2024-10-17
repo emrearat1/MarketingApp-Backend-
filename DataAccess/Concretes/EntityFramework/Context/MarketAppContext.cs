@@ -1,4 +1,6 @@
 ﻿using Entities.Concreates;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concretes.EntityFramework.Context
 {
-    public class MarketAppContext : DbContext
+    //public class MarketAppContext : DbContext
+    public class MarketAppContext : IdentityDbContext<User>
     {
         public DbSet<User> Users { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
@@ -18,17 +21,28 @@ namespace DataAccess.Concretes.EntityFramework.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString: @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MarketDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"); //Bağlantı cümleciği buradan geçilebilir.
-                                                                                                                                                                                                                                                                             //string başında @ koymak, kaçış karakterlerini kullanmayacağını belirtir. 
-                                                                                                                                                                                                                                                                             //kaçış karakteri : n => \n olduğunda.
-                                                                                                                                                                                                                                                                             //Integrated Security : Windows Auth olduğunda.
-                                                                                                                                                                                                                                                                             //Şifre ve username ileyse False'a çekilip, Username ve Password verilir.
-                                                                                                                                                                                                                                                                             //Initial Catalog = DB ismi
+            optionsBuilder.UseSqlServer(connectionString: @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MarketDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
         }
        
            protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            List<IdentityRole> roles = new List<IdentityRole>()
+            {
+                new IdentityRole
+                {
+                    Name = "Admin",
+                    NormalizedName = "ADMIN"
+                },
+                 new IdentityRole
+                {
+                    Name = "User",
+                    NormalizedName = "USER"
+                },
+
+            };
+           modelBuilder.Entity<IdentityRole>().HasData(roles);
             // Configure Product entity
             modelBuilder.Entity<Product>(entity =>
             {

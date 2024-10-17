@@ -1,6 +1,5 @@
 ﻿using Business.Abstracts;
 using Business.Request.ProductRequests;
-using Business.Request.UserRequests;
 using Entities.Concreates;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

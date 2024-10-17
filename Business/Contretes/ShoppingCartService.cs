@@ -17,6 +17,7 @@ namespace Business.Contretes
         private IShoppingCartDal _ShoppingCartDal;
         private IProductDal _productDal;
         private IShoppingCartProductDal _shoppingCartProductDal;
+        
         public ShoppingCartService(IShoppingCartDal shoppingCartDal, IProductDal productDal, IShoppingCartProductDal shoppingCartProductDal)
         {
             _ShoppingCartDal = shoppingCartDal;
@@ -27,15 +28,15 @@ namespace Business.Contretes
 
 
         //NOTCALLABLE
-        public bool CreateShoppingCart(CreateShoppingCartRequest request)
+        public bool CreateShoppingCart(string Id)
         {
+            
             ShoppingCart shoppingCartToAdd = new ShoppingCart
             {
-
-                UserId = request.UserId,
-                //Products = request.Products,
-                TotalPrice = request.TotalPrice,
+                UserId = Id,
+                TotalPrice = 0
             };
+
             _ShoppingCartDal.Add(shoppingCartToAdd);
             return true;
         }
@@ -170,6 +171,28 @@ namespace Business.Contretes
                 Console.WriteLine($"Concurrency error: {ex.Message}");
                 // Ideally, implement logging or user feedback about the conflict
                 return false;
+            }
+            catch (Exception ex)
+            {
+                // Handle other exceptions, such as database connectivity issues
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                return false;
+            }
+        }
+
+        public ShoppingCart GetByUserId(string userId)
+        {
+            return _ShoppingCartDal.Get(x => x.UserId == userId);
+        }
+
+        public bool DeleteProductFromCart(Guid cartid, Guid productId)
+        {
+            try
+            {
+                // Find the ShoppingCartProduct entity that links the cart and the product
+                var shoppingCartProductToDelete = _shoppingCartProductDal.Get(x => x.ShoppingCartId == cartid && x.ProductId == productId);
+                _shoppingCartProductDal.Delete(shoppingCartProductToDelete);
+                return true;
             }
             catch (Exception ex)
             {

@@ -17,12 +17,12 @@ namespace WebApi.Controllers
             _shoppingCartService = shoppingCartService;
         }
 
-        [HttpPost("/CreateShoppingCart")]
-        public IActionResult CreaatShoppingCart(CreateShoppingCartRequest request)
-        {
-            return Ok(_shoppingCartService.CreateShoppingCart(request));
+        //[HttpPost("/CreateShoppingCart")]
+        //public IActionResult CreaatShoppingCart(CreateShoppingCartRequest request)
+        //{
+        //    return Ok(_shoppingCartService.CreateShoppingCart(request));
 
-        }
+        //}
         [HttpGet("/GetShoppingCartById")]
         public IActionResult GetShoppingCartById(Guid id) 
         {

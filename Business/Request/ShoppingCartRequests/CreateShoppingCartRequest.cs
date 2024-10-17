@@ -10,8 +10,7 @@ namespace Business.Request.ShoppingCartRequests
     public class CreateShoppingCartRequest
     {
         
-        public Guid UserId { get; set; }
-        public string Products { get; set; }
-        public int TotalPrice { get; set; }
+        public string UserId { get; set; }
+        
     }
 }

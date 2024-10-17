@@ -1,7 +1,6 @@
 ﻿using Business.Abstracts;
 using Business.Contretes;
 using Business.Request.CommentRequests;
-using Business.Request.UserRequests;
 using Core;
 using Entities.Concreates;
 using Microsoft.AspNetCore.Http;

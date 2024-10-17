@@ -1,6 +1,5 @@
 ﻿using Business.Abstracts;
 using Business.Request.ProductRequests;
-using Business.Request.UserRequests;
 using DataAccess.Abstracts;
 using Entities.Concreates;
 using System;

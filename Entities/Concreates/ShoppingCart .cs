@@ -16,7 +16,7 @@ namespace Entities.Concreates
         }
 
         public Guid Id { get; set; }
-        public Guid UserId{ get; set; }
+        public string UserId{ get; set; }
         public User User { get; set; }
         //public ICollection<ProductInfo> Products { get; set; } = new List<ProductInfo>();
         public decimal TotalPrice { get; set; }

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Business.Request.UserRequests
 {
-    public class DeleteUserRequest
+    public class NewUser
     {
-        public Guid Id { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Token { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Business.Abstracts;
 using Business.Contretes;
+using Core;
 using DataAccess.Abstracts;
 using DataAccess.Concretes.EntityFramework;
 using DataAccess.Concretes.EntityFramework.Context;
@@ -20,7 +21,7 @@ namespace Business
             services.AddSingleton<MarketAppContext>();
             services.AddSingleton<IUserDal, EfUserDal>();
             ////services.AddSingleton<BrandBusinessRules>();
-            services.AddSingleton<IUserService, UserService>();
+            //services.AddSingleton<IUserService, UserService>();
 
             services.AddSingleton<IShoppingCartDal, ShoppingCartDal>();
             //services.AddSingleton<BrandBusinessRules>();
@@ -39,6 +40,7 @@ namespace Business
             //services.AddSingleton<BrandBusinessRules>();
             services.AddSingleton<ICommentService, CommentService>();
 
+            services.AddSingleton<ITokenService, TokenService>();
             return services;
         }
     }

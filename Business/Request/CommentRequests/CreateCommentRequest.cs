@@ -9,7 +9,7 @@ namespace Business.Request.CommentRequests
 {
     public class CreateCommentRequest
     {   
-        public Guid UserId { get; set; }
+        public string UserId { get; set; }
         public Guid ProductId { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
